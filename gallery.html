@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuestras Fotos 💙</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page">
+  <a href="index.html" class="back">← Volver</a>
+
+  <div class="slider-wrap">
+    <h2>Nuestros recuerdos</h2>
+
+    <div class="slider" id="slider">
+      <!-- Las fotos se cargan desde script.js (lista PHOTOS) -->
+    </div>
+
+    <div class="slider-controls">
+      <button id="prev" aria-label="Anterior">‹</button>
+      <span id="counter">0 / 0</span>
+      <button id="next" aria-label="Siguiente">›</button>
+    </div>
+
+    <p class="hint">Coloca tus fotos en la carpeta <code>images/</code> y agrégalas en <code>script.js</code></p>
+  </div>
+
+  <script src="script.js"></script>
+  <script>initGallery();</script>
+</body>
+</html>
